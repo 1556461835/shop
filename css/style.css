@@ -176,6 +176,55 @@ main{
 	height: 100%;
 }
 /* <!-- 图片广告结束2 --> */
+/* 东西详情 */
+.shop{
+	width: 100%;
+	height: 7.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.shop-le{
+	width: 5.37rem;
+	height: 100%;
+}
+.shop-le-on{
+	width: 100%;
+	height: 5.4rem;
+	background: url(https://i8.mifile.cn/v1/a1/1c3e0097-73a6-1788-96f7-2cdb58d82ba1!360x360.webp)no-repeat center center/100% auto;
+}
+.shop-le-under{
+	width: 100%;
+	height: calc(7.6rem - 5.37rem);
+	padding: 0.3rem 0.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.name{
+	font-size: 0.35rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.brief{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.3rem;
+}
+.price{
+	font-size: 0.35rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #ff6700;
+}
+.shop-rg{
+	width: 5.37rem;
+	height: 100%;
+}
+/* 东西详情结束 */
 /* 结尾 */
 .bd{
 	width: 100%;
