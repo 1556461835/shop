@@ -200,6 +200,7 @@ main{
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
+	box-sizing: border-box;
 }
 .name{
 	font-size: 0.35rem;
@@ -233,7 +234,6 @@ main{
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	
 }
 .bd .hezi{
 	width: 25%;
@@ -241,7 +241,6 @@ main{
     background: #fff;
 	float: left;
 	text-align: center;
-	color: #999;
 }
 .bd .hezi a{
 	margin-top: 0.25rem;
@@ -252,12 +251,14 @@ main{
     justify-content: center;
 	color: #999;
 }
+.bd .hezi a.it{color: #ff6700;}
 .bd .hezi a>img{
 	width: 0.57rem;
 	height: 0.57rem;
 	align-self: center;
 }
-.bd :nth-child(1){
+.bd .hezi:nth-child(1){
 	color: #ff6700;
 }
+
 /* 结尾结束/ */

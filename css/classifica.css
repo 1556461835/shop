@@ -1,0 +1,122 @@
+.box{
+	max-width: 640px;
+	height: 100vh;
+	background: #fff;
+	margin: 0 auto;
+}
+/* 头部 */
+.hd{
+	width: 100%;
+	height: 1.55rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	padding: 0 0.55rem;
+	box-sizing: border-box;
+	justify-content: space-between;
+	background: #f2f2f2;
+}
+.hd .i1{
+	width: 0.35rem;
+	height: 0.65rem;
+	font-size: 0.6rem;
+	font-style: normal;
+	
+}
+.hd>span{
+	font-size: 0.5rem;
+}
+.hd .i2{
+	font-size: 0.6rem;
+    width: 0.66rem;
+	font-style: normal;
+}
+/* 头部结束 */
+/* 中间 */
+.middle{
+	width: 100%;
+	height: 100%;
+	padding: 1.55rem 0;
+	margin: 0 auto;
+	display: flex;
+}
+.si{
+	width: 2.25rem;
+	height: 100%;
+	border-right: 1px solid #f2f2f2;
+	overflow-y: auto;
+	box-sizing: border-box;
+	position: fixed;
+	top: 1.55rem;
+	left: 0;
+}
+.middle .si::-webkit-scrollbar{
+	width: 0;
+}
+.si>div{
+	width: 100%;
+	height: 1.35rem;
+	text-align: center;
+	font-size: 0.4rem;
+	box-sizing: border-box;
+	padding-top: 0.95rem;
+}
+.si div:active{
+	color: #ff6700;
+	font-size: 0.5rem;
+}
+.si-rg{
+	width: 8.85rem;
+	height: 100%;
+	overflow-y: auto;
+	padding: 0 0.53rem;
+	box-sizing: border-box;
+	position: fixed;
+	top: 1.55rem;
+	right: 0;
+}
+.si-rg::-webkit-scrollbar{
+	width: 0;
+}
+.si-rg .back{
+	background: url(https://i8.mifile.cn/v1/a1/3b9051f0-9e78-3ea9-dc8a-aed54060d94c!500x200.webp)no-repeat center center/100% auto;
+	width: 100%;
+	height: 3rem;
+}
+.phone{
+	width: 100%;
+	height: 2.46rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.phone .line{
+	width: 0.6rem;
+	height: 0.05rem;
+	background: #dfdfdf;
+}
+.phone>span{
+	font-size: 0.4rem;
+	margin: 0 0.2rem;
+}
+.sml{
+	width: 100%;
+	height: 5.3rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.sml li{
+	width: 33.3333%;
+	height: 2.2rem;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* 中间结束 */
+/* 尾部 */
+/* 尾部结束 */
