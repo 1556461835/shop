@@ -1,0 +1,8 @@
+.zhuye{
+	max-width: 640px;
+	height: 100vh;
+	background: red;
+	margin: 0 auto;
+	padding-top: 0.8rem;
+	box-sizing: border-box;
+}

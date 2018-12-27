@@ -100,6 +100,7 @@
 .phone>span{
 	font-size: 0.4rem;
 	margin: 0 0.2rem;
+	font-weight: 400;
 }
 .sml{
 	width: 100%;
@@ -111,12 +112,19 @@
 .sml li{
 	width: 33.3333%;
 	height: 2.2rem;
-	background: red;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
+.sml li img{
+	width: 1.15rem;
+	height: 1.45rem;
+}
+.sml li p{
+	font-size: 0.3rem;
+	color: rgba(0,0,0,.54);
+}
 /* 中间结束 */
 /* 尾部 */
+.bd .hezi a.itt{color: #ff6700;}
 /* 尾部结束 */
