@@ -1,0 +1,96 @@
+.big{
+	max-width: 640px;
+	height: 100%;
+	margin: 0 auto;
+}
+.big-box1{
+	width: 100%;
+	height: 1.15rem;
+	background: #f2f2f2;
+	padding: 0 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.big-box1-le{
+	width: 0.5rem;
+	height: 0.7rem;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAABfUlEQVR4AWL4//8/oH1zzA4gCMJgbNv239i2beP+R8gXczpmV79XB9ja3UEDDJCAIAQhCEF/TBAgCEEIUkSKFrEoahD0VFCdOLtmWxQh6E5Okzh7xCyC7n85T+lyL0jREJDT434NMr6cAde7mLHmXDDkfptX1AfkjPk+B9lyRn0fFO01Z8r9SVrRGJAzLaL9CrJ/q4XvlnPBX5IT4/qyqqgJyFkWcX5v8/aXsyKSXKc7FLUBORuGHAeC7K18y5DjQ5CiOiBnU6T6zSjav9WWSPebcrV3qz2R4Tcnba85hyLTb9Le/nL2RY7fqsbLcnJdl30MOSeiwG9dzD4hX1DitnCoSBDlhpwy15VVRY9YDvxWhd/xYAjiF2ORLnYviG3+45dTDopcNbisftvvRrrjlQmzNAeCSLmStP9OSZR9KBx+6cK95LH0TPMC7S80UNGCRxMnbcA0kg8iiFEEhlkYh2Kg7vd/STvPj2Qy1NvKUO+PgCAEIQhBCEIQghAE53kdVfEUUHFYAAAAAElFTkSuQmCC) no-repeat center center/100% auto;
+}
+ input{
+	outline: none;
+    border: 0;	
+	font-size: 0.4rem;
+	width: 7rem;
+	height: 0.7rem;
+	border: 1px solid #e9e9e9;
+	box-sizing: border-box;
+	display: block;
+}
+.big-box1-ri{
+	width: 0.6rem;
+	height: 0.7rem;
+	font-size: 0.55rem;
+	font-style: normal;
+}
+.big-box2{
+	width: 100%;
+	height: 1.15rem;
+	padding: 0 0.45rem;
+	box-sizing: border-box;
+	font-size: 0.35rem;
+	line-height: 1.15rem;
+}
+.big-box3{
+	width: 100%;
+	height: 4.2rem;
+}
+.big-box3 img{
+	width: 100%;
+	height: 100%;
+}
+.big-box4{
+	width: 100%;
+	padding: 0 0.45rem;
+	box-sizing: border-box;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.big-box4 li{
+	margin: 0.15rem 0.15rem;
+	border: 1px solid #000;
+	padding: 0.18rem 0.28rem;
+	font-size: 0.35rem;
+	text-align: center;
+	line-height: 0.8rem;
+	box-sizing: border-box;
+	background: #fae8e8;
+	color: #847b7c;
+}
+.big-box5{
+	width: 100%;
+	height: 0.35rem;
+	font-size: 0.35rem;
+	padding: 0 0.4rem;
+	box-sizing: border-box;
+	margin: 0.45rem 0;
+}
+.big-box6{
+	width: 100%;
+	padding: 0 0.32rem;
+	box-sizing: border-box;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.big-box6 li{
+	margin: 0.1rem 0.13rem;
+	padding: 0.18rem 0.28rem;
+	font-size: 0.35rem;
+	text-align: center;
+	/* line-height: 0.8rem; */
+	box-sizing: border-box;
+	background: #f5f5f5;
+	color: #847b7c;
+}
