@@ -1,0 +1,80 @@
+.box{
+	max-width: 640px;
+	height: 100vh;
+	background: #fff;
+	margin: 0 auto;
+}
+/* 头部开始 */
+/* 头部开始结束 */
+/* 中间 */
+.middle{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 1.55rem 0;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+.middle::-webkit-scrollbar{
+	width: 0;
+}
+.xian{
+	width: 9.55rem;
+	height: 2px;
+	background: #f7f7f7;
+	position: relative;
+	left: 0.3rem;
+	top: 1.14rem;
+}
+.address{
+	width: 10.16rem;
+	height: 2.82rem;
+	margin: 0.35rem auto 0 auto;
+	border: 1px solid #f7f7f7;
+	border-radius: 5px;
+}
+.address-top{
+	height: 1.3rem;
+	display: flex;
+	align-items: center;
+	padding-left: 0.8rem;
+	box-sizing: border-box;
+}
+.lianxiren{
+	font-size: 0.4rem;
+	color: #ff6700;
+	margin-right: 0.95rem;
+}
+.tel{
+	font-size: 0.3rem;
+}
+.address-bottom{
+	width: 100%;
+	height: 1.5rem;
+	line-height: 1.35rem;
+	font-size: 0.35rem;
+	padding-left: 0.8rem;
+	box-sizing: border-box;
+}
+.dizhi{
+	float: left;
+}
+.iconfont{
+	float: right;
+	margin-right: 0.45rem;
+}
+/* 中间结束 */
+/* 底部 */
+.add{
+	width: 100%;
+	height: 1.5rem;
+	font-size: 0.4rem;
+	color: #fff;
+	background: #ff6700;    text-align: center;
+	line-height: 1.5rem;
+	margin-bottom: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+/* 底部结束 */
