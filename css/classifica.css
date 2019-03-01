@@ -49,6 +49,11 @@
 	border-right: 1px solid #f2f2f2;
 	overflow-y: auto;
 	box-sizing: border-box;
+	position: relative;
+}
+.si .active{
+	color: #ff6700;
+	font-size: 0.6rem !important;
 }
 .middle .si::-webkit-scrollbar{
 	width: 0;
@@ -58,12 +63,7 @@
 	height: 1.35rem;
 	text-align: center;
 	font-size: 0.4rem;
-	box-sizing: border-box;
-	padding-top: 0.9rem;
-}
-.si div:active{
-	color: #ff6700;
-	font-size: 0.5rem;
+	line-height: 1.35rem;
 }
 .si-rg{
 	width: 8.85rem;
@@ -71,6 +71,7 @@
 	overflow-y: auto;
 	padding: 0 0.53rem;
 	box-sizing: border-box;
+	position: relative;
 }
 .si-rg::-webkit-scrollbar{
 	width: 0;
